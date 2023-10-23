@@ -103,3 +103,45 @@ div#khuvuc{
     color: #AAA9A9;
 }
 
+div.login{
+    width: 45%;
+    height: 40px;
+}
+
+div.login button{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+div.login button a{
+    text-decoration: none;
+    color: #F05626;
+}
+
+
+div.dangtin_login{
+    width: 45%;
+    height: 40px;
+}
+
+div.dangtin_login button{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: #F05626;
+    cursor: pointer;
+}
+
+div.dangtin_login button a{
+    text-decoration: none;
+    color: white;
+}

@@ -28,9 +28,15 @@ use App\Http\Middleware\CheckLogin;
 // });
 
 //  Route fe
+    
+ 
+    
+    Route::get('/', function () {
+        return view('User.index_login');
+    })->name('index_login');
 
-    Route::get('/', [UserController::class, 'login'])->name('login');
-    Route::post('/', [UserController::class, 'postLogin']);
+    Route::get('/login', [UserController::class, 'login'])->name('login');
+    Route::post('/login', [UserController::class, 'postLogin']);
 
 
     Route::get('/register', [UserController::class, 'register'])->name('register');
